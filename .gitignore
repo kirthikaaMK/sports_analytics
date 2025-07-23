@@ -1,0 +1,58 @@
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.h5
+*.ckpt
+runs/
+checkpoints/
+weights/
+models/
+
+# Data folders (train/test/val)
+data/
+datasets/
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# YOLO specific cache
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# Environment/config files
+.env
+*.bak
+*.tmp
+
+# Node and JS build (if frontend involved)
+node_modules/
+dist/
+build/
+
+# If you have yolov5 cloned or embedded, ignore its .git folder
+yolov5train/.git/
+
+# Git LFS (if using)
+*.lfs
